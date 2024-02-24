@@ -10,6 +10,16 @@
             border-collapse: collapse;
             width:100px;
         }
+        tr:nth-child(odd){
+            background-color: #eee;
+        }
+        ol{
+            list-style-type:lower-roman;
+        }
+        dl{
+            list-style-position:inside;
+            list-style-type: circle;
+        }
     </style>
 </head>
 <body>
@@ -26,8 +36,21 @@
         </tr>
         <tr>
             <td>february</td>
+
             <td>$50</td>
         </tr>
     </table>
+    <h1>orderrd list with lower case roman numbers</h1>
+     <ol>
+        <li>coffie</li>
+        <LI>tea</LI>
+        <li>milk</li>
+     </ol>
+     <dl>
+        <dt>coffee</dt>
+        <dd>black hot drink</dd>
+        <dt>milk</dt>
+        <dd>white cold drink</dd>
+     </dl>
 </body>
 </html>
